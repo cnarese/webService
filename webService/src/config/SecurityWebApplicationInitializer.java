@@ -2,10 +2,11 @@ package config;
 
 import org.springframework.security.web.context.*;
 
-public class SecurityWebApplicationInitializer
+public class SecurityWebApplicationInitializer{/*
       extends AbstractSecurityWebApplicationInitializer {
 
     public SecurityWebApplicationInitializer() {
-        super(SecurityConfig.class);
+        super(SecurityConfigold.class);
     }
+    */
 }

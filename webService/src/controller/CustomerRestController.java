@@ -26,7 +26,7 @@ public class CustomerRestController {
 
 	
 	@GetMapping("/customers")
-	public List getCustomers() {
+	public List<Customer> getCustomers() {
 		return customerDAO.list();
 	}
 

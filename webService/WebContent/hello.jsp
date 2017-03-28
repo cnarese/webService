@@ -6,7 +6,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+
+
 <body>
-aaa
+  <div class="container">
+    <h1>This is secured!</h1>
+    <p>
+      Hello <b><c:out value="${pageContext.request.remoteUser}"/></b>
+    </p>
+  </div>
 </body>
-</html>
+
+	</html>

@@ -25,7 +25,7 @@ public class CustomerDAO {
 	 * 
 	 * @return list of customers
 	 */
-	public List list() {
+	public List<Customer> list() {
 		return customers;
 	}
 
