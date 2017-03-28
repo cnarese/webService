@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>webService</groupId>
-  <artifactId>webService</artifactId>
+  <groupId>webService1</groupId>
+  <artifactId>webService1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <sourceDirectory>webService/src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -24,7 +24,6 @@
       </plugin>
     </plugins>
   </build>
-  
 	<properties>
 		<java-version>1.7</java-version>
 		<springframework.version>4.3.7.RELEASE</springframework.version>
@@ -93,5 +92,5 @@
   </dependency>
   	
 	  
-</dependencies>
+</dependencies>  
 </project>
