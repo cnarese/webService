@@ -29,10 +29,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.antMatchers("/customers/**").access("hasAnyRole('ROLE_USER','ROLE_ADMIN')")
 		.and().formLogin()
 		.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/");
-/*		.and().logout()
-			.logoutUrl("/logout")
-			.logoutSuccessUrl("/");*/
-	  	
-
 	}
 }
